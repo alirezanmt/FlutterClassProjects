@@ -120,14 +120,14 @@ class _joft6bodyState extends State<joft6body> {
         Row(
           children: [
             Expanded(
-            child: Center(child: Text("${leftDice}", style: TextStyle(
+            child: Center(child: Text("${leftDice+1}", style: TextStyle(
               fontSize: 35,
               fontWeight: FontWeight.bold,
               color: Colors.indigo,
             ),)),
             ),
             Expanded(
-              child: Center(child: Text("${rightDice}", style: TextStyle(
+              child: Center(child: Text("${rightDice+1}", style: TextStyle(
                 fontSize: 35,
                 fontWeight: FontWeight.bold,
                 color: Colors.indigo,

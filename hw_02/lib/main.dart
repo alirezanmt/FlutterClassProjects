@@ -48,12 +48,17 @@ class MyApp extends StatelessWidget {
                           Icons.phone,
                           color: Colors.teal.shade900,
                         ),
-                        SizedBox(width: 10,),
-                        Text("+98-9376467343", style: TextStyle(
-                          color: Colors.blueAccent.shade200,
-                          fontFamily: "Dancing",
-                          fontSize: 20,
-                        ),)
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "+98-9376467343",
+                          style: TextStyle(
+                            color: Colors.blueAccent.shade200,
+                            fontFamily: "Dancing",
+                            fontSize: 20,
+                          ),
+                        )
                       ],
                     ),
                   ),
@@ -66,12 +71,17 @@ class MyApp extends StatelessWidget {
                           Icons.email,
                           color: Colors.teal.shade900,
                         ),
-                        SizedBox(width: 10,),
-                        Text("alireza.tehran2020@gmail.com", style: TextStyle(
-                          color: Colors.blueAccent.shade200,
-                          fontFamily: "Dancing",
-                          fontSize: 20,
-                        ),)
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text(
+                          "alireza.tehran2020@gmail.com",
+                          style: TextStyle(
+                            color: Colors.blueAccent.shade200,
+                            fontFamily: "Dancing",
+                            fontSize: 20,
+                          ),
+                        )
                       ],
                     ),
                   )
